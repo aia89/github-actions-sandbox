@@ -3,9 +3,9 @@ on: workflow_dispatch #events that will be triggered by user manually
 jobs:  #work that should be done
   first_job:  #anyname
     runs-on: ubuntu-latest #reserved name, envs , runners that we can use, depending on OS
-      steps:
-        - name: Print greeting
-          run: echo "Hello World"
-        - name: Print goodbye
-          run: echo "Done - bye!"
+    steps:
+      - name: Print greeting
+        run: echo "Hello World"
+      - name: Print goodbye
+        run: echo "Done - bye!"
     
